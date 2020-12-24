@@ -16,7 +16,7 @@ namespace URI_1079
                 double n2 = double.Parse(vet[1],CultureInfo.InvariantCulture);
                 double n3 = double.Parse(vet[2],CultureInfo.InvariantCulture);
 
-                double resultado = ((n1 *2) + (n2 * 3) + (n3 *5)) / 10;
+                double resultado = ((n1 *2.0) + (n2 * 3.0) + (n3 *5.0)) / 10.0;
 
                 Console.WriteLine(resultado.ToString("F1",CultureInfo.InvariantCulture));
 
